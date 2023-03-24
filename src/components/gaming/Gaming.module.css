@@ -1,0 +1,18 @@
+.video-view {
+  position: relative;
+  width: 300px;
+  height: 100px;
+}
+
+.video-view .video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #ccc;
+}
+
+.video-view .video-content {
+  position: absolute;
+  bottom: 0px;
+}
