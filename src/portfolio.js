@@ -764,8 +764,8 @@ const projects = {
           iconifyClass: "skill-icons:gcp-dark",
         },
         {
-          name: "CoreNLP",
-          iconifyClass: "carbon:ibm-watson-natural-language-understanding",
+          name: "Postman",
+          iconifyClass: "logos:postman-icon",
         },
       ],
       links: [

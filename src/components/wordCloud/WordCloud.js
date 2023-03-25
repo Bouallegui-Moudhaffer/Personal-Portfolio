@@ -3,9 +3,9 @@ import tagCanvas from "tag-canvas";
 import React from "react";
 
 class TagCloud extends React.Component {
-  // constructor(props:any) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
+  }
 
   renderTagCloud() {
     try {
