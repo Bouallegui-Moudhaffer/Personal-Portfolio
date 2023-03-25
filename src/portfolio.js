@@ -586,34 +586,42 @@ const projects = {
       url:
         "https://github.com/Bouallegui-Moudhaffer/SoftOCR---Optical-Character-Recognition-Software",
       description:
-        "As final year dissertation research and project, I developed an optical character recognition software powered with Deep Learning to streamline the task university's administrative tasks student grade entry.",
+        "End of studies project, this is an optical character recognition software powered with Deep Learning to streamline the task of student grade entry.",
       languages: [
         {
           name: "JavaFX",
-          iconifyClass: "logos-html-5",
+          iconifyClass: "logos:javascript",
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Java",
+          iconifyClass: "logos:java",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos:python",
+        },
+        {
+          name: "TensorFlow",
+          iconifyClass: "logos:tensorflow",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+          url:
+            "https://github.com/Bouallegui-Moudhaffer/SoftOCR---Optical-Character-Recognition-Software",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/keep-calm-and-carry-on",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
+        /*{
           name: "Live Demo",
           url:
             "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
           iconifyClass: "mdi:web",
-        },
+        },*/
       ],
     },
     {
@@ -630,11 +638,23 @@ const projects = {
         },
         {
           name: "NodeJs",
-          iconifyClass: "logos-nodejs",
+          iconifyClass: "logos:nodejs-icon",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos:python",
         },
         {
           name: "Flask",
-          iconifyClass: "logos-flask",
+          iconifyClass: "logos:flask",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos:firebase",
         },
       ],
       links: [
@@ -644,51 +664,38 @@ const projects = {
             "https://github.com/Bouallegui-Moudhaffer/Candetect--A-ReactJs-Flask-backend-and-MongoDb-Project",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devfolio",
-          url: "https://devfolio.co/projects/yoglife-b20d",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
       ],
     },
     {
       id: "2",
       name: "StreamlitCKD",
-      url: "https://github.com/kevalvavaliya/Adoptisity",
+      url: "https://github.com/Bouallegui-Moudhaffer/StreamlitCKD",
       description:
         "This platform uses machine learning to analyze patient data and accurately classify whether they have or do not have chronic kidney disease.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
+          name: "Python",
+          iconifyClass: "logos:python",
         },
         {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
+          name: "Streamlit",
+          iconifyClass: "logos:streamlit",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Wix",
-          iconifyClass: "bxl:wix",
+          name: "Scikit-Learn",
+          iconifyClass: "simple-icons:scikitlearn",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Adoptisity",
+          url: "https://github.com/Bouallegui-Moudhaffer/StreamlitCKD",
           iconifyClass: "ri:github-fill",
         },
         {
-          name: "Devpost",
-          url: "https://devpost.com/software/adoptisity",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
           name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
+          url:
+            "https://bouallegui-moudhaffer-streamlitckd-app-xujp0d.streamlit.app",
           iconifyClass: "mdi:web",
         },
       ],
@@ -701,12 +708,20 @@ const projects = {
         "A gaming platform across a Desktop App developed using Java and JavaFX, a Web App using Symfony & Twig and a Mobile App using Codename One.",
       languages: [
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
         {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
+          name: "Java",
+          iconifyClass: "logos:java",
+        },
+        {
+          name: "Symfony",
+          iconifyClass: "fa-brands:symfony",
+        },
+        {
+          name: "Twig",
+          iconifyClass: "vscode-icons:file-type-twig",
         },
       ],
       links: [
@@ -715,28 +730,99 @@ const projects = {
           url: "https://github.com/Bouallegui-Moudhaffer/GameHex3",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/finsplit",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
       ],
     },
     {
       id: "4",
+      name: "Prodigy Path",
+      url: "https://github.com/Bouallegui-Moudhaffer/Prodigy-Path",
+      description:
+        "A competency based curriculum platform. Generate curriculums and learning paths for university students based on the professional experience from Alumni.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Python Selenium",
+          iconifyClass: "skill-icons:selenium",
+        },
+        {
+          name: "Chromium Browser",
+          iconifyClass: "openmoji-chromium",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Google Cloud",
+          iconifyClass: "skill-icons:gcp-dark",
+        },
+        {
+          name: "CoreNLP",
+          iconifyClass: "carbon:ibm-watson-natural-language-understanding",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "Professional Portfolio",
+      url: "https://github.com/Bouallegui-Moudhaffer/Personal-Portfolio",
+      description:
+        "Gateway to my academic, professional & personal projects and achievements. This platform can also be viewed as a public record of my personal growth.",
+      languages: [
+        {
+          name: "ReactJs",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NPM",
+          iconifyClass: "vscode-icons:file-type-npm",
+        },
+        {
+          name: "Netlify",
+          iconifyClass: "vscode-icons:file-type-netlify",
+        },
+        {
+          name: "Axios",
+          iconifyClass: "simple-icons:axios",
+        },
+        {
+          name: "Github Pages",
+          iconifyClass: "simple-icons:githubpages",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/Bouallegui-Moudhaffer/Personal-Portfolio",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    /*{
+      id: "6",
       name: "FraudulentAI",
       url:
         "https://github.com/Bouallegui-Moudhaffer/Credit-Fraid-Detection---CodeClause-Internship",
       description:
-        "As part of a 1 month long internship with CodeClause, I implemented a Credit Fraud Detection system using state of the art technology by leveraging the power of Deep Learning.",
+        "As part of a 1 month long internship, I implemented a Credit Fraud Detection system using state of the art technology by leveraging the power of Deep Learning.",
       languages: [
         {
           name: "HTML5",
-          iconifyClass: "logos-html-5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
         {
           name: "Python",
@@ -749,74 +835,8 @@ const projects = {
           url: "https://github.com/kevalvavaliya/Emosic",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/emosic",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
       ],
-    },
-    {
-      id: "5",
-      name: "Professional Portfolio",
-      url: "https://github.com/harikanani/Fileblok",
-      description:
-        "A Web App developed using ReactJs to act as a gateway to my academic, professional & personal projects and achievements. This platform can also be conisdered a public record of my personal growth.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Storyblok",
-          iconifyClass: "logos-storyblok-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Fileblok",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/fileblok",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    // {
-    //   id: "6",
-    //   name: "Automate Attendace",
-    //   url: "https://github.com/harikanani/Node_Python",
-    //   description: "Automation of Online Attendance using node js and python",
-    //   languages: [
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
+    },*/
     // {
     //   id: "7",
     //   name: "Automate Discord Bot",
@@ -906,7 +926,7 @@ const projects = {
     //     },
     //     {
     //       name: "CSS3",
-    //       iconifyClass: "logos-css-3",
+    //       iconifyClass: "vscode-icons:file-type-css",
     //     },
     //   ],
     //   links: [
