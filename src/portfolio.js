@@ -636,13 +636,17 @@ const projects = {
           name: "ReactJs",
           iconifyClass: "logos-react",
         },
-        {
+        /*{
           name: "NodeJs",
           iconifyClass: "logos:nodejs-icon",
-        },
+        },*/
         {
           name: "Python",
           iconifyClass: "logos:python",
+        },
+        {
+          name: "OpenCV",
+          iconifyClass: "logos:opencv",
         },
         {
           name: "Flask",

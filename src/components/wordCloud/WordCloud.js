@@ -48,49 +48,49 @@ class TagCloud extends React.Component {
               <a href="/">GitHub</a>
             </li>
             <li>
-              <a href="/">JavaScript</a>
+              <a href="/">OpenCV</a>
             </li>
             <li>
-              <a href="/">TypeScript</a>
+              <a href="/">Django</a>
             </li>
             <li>
-              <a href="/">SCSS</a>
+              <a href="/">Flask</a>
             </li>
             <li>
               <a href="/">React</a>
             </li>
             <li>
-              <a href="/">CSS</a>
+              <a href="/">MySQL</a>
             </li>
             <li>
-              <a href="/">HTML</a>
+              <a href="/">MongoDB</a>
             </li>
             <li>
-              <a href="/">Storybook</a>
+              <a href="/">BigQuery</a>
             </li>
             <li>
               <a href="/">REST</a>
             </li>
             <li>
-              <a href="/">Gulp</a>
+              <a href="/">Machine Learning</a>
             </li>
             <li>
-              <a href="/">Unit Tests</a>
+              <a href="/">CRISP-DM</a>
             </li>
             <li>
-              <a href="/">Material Design</a>
+              <a href="/">Deep Learning</a>
             </li>
             <li>
-              <a href="/">Ant Design</a>
+              <a href="/">CoreNLP</a>
             </li>
             <li>
               <a href="/">NodeJS</a>
             </li>
             <li>
-              <a href="/">BEM</a>
+              <a href="/">Stanza</a>
             </li>
             <li>
-              <a href="/">Progressive Web Apps</a>
+              <a href="/">Statistics</a>
             </li>
           </ul>
         </div>

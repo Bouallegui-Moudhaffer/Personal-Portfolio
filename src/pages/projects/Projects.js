@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import WordCloud from "../../components/wordCloud/WordCloud";
 import { style } from "glamor";
 
 function Projects(props) {
@@ -25,7 +26,7 @@ function Projects(props) {
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
             <div className="projects-heading-img-div">
-              <ProjectsImg theme={theme} />
+              <WordCloud />
             </div>
             <div className="projects-heading-text-div">
               <h1
