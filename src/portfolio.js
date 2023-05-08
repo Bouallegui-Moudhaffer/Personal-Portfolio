@@ -16,8 +16,7 @@ const greeting = {
   subTitle1: "Software Engineering Student",
   subTitle2: "Data Science Specialist",
   subTitle3: "Artificial Intelligence Researcher",
-  resumeLink:
-    "https://drive.google.com/file/d/1VJWzjaOQzBsTSykzC0WXhxTsUqtViyjv/view?usp=sharing",
+  resumeLink: "https://cvdesignr.com/p/6456bb1abd919",
   mail: "mailto:moudhafferbouallegui@gmail.com",
 };
 
