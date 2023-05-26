@@ -28,6 +28,8 @@ export default function Main(propss) {
         history.push("/contact");
       } else if (command.includes("projects") || command.includes("index")) {
         history.push("/projects");
+      } else if (command.includes("hobbies") || command.includes("index")) {
+        history.push("/hobbies");
       }
     } else if (command.includes("go back")) {
       history.goBack();
