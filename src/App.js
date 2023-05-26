@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { HashRouter } from "react-router-dom";
 import "./App.css";
 import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
@@ -32,10 +33,14 @@ function App() {
               ringSize={25}
               transitionTime={75}
             >
-              <Main theme={themes[theme]} setTheme={setTheme} />
+              <HashRouter basename="/">
+                <Main theme={themes[theme]} setTheme={setTheme} />
+              </HashRouter>
             </CursorProvider>
           ) : (
-            <Main theme={themes[theme]} setTheme={setTheme} />
+            <HashRouter basename="/">
+              <Main theme={themes[theme]} setTheme={setTheme} />
+            </HashRouter>
           )}
         </div>
       </>
