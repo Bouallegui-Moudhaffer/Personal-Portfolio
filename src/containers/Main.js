@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, HashRouter, useHistory } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -10,36 +10,8 @@ import HobbiesPage from "../pages/hobbies/Hobbies";
 import { settings } from "../portfolio.js";
 import GamingPage from "../pages/gaming/gaming";
 import AnimePage from "../pages/anime/Anime";
-import { recognition } from "../components/speechRecognition/SpeechRecognition";
 
 export default function Main(propss) {
-  const history = useHistory();
-  recognition.onresult = (event) => {
-    const command = event.results[0][0].transcript;
-
-    if (command.includes("navigate to") || command.includes("go to")) {
-      if (command.includes("home") || command.includes("index")) {
-        history.push("/home");
-      } else if (command.includes("education") || command.includes("index")) {
-        history.push("/education");
-      } else if (command.includes("experience") || command.includes("index")) {
-        history.push("/experience");
-      } else if (command.includes("contact") || command.includes("index")) {
-        history.push("/contact");
-      } else if (command.includes("projects") || command.includes("index")) {
-        history.push("/projects");
-      } else if (command.includes("hobbies") || command.includes("index")) {
-        history.push("/hobbies");
-      }
-    } else if (command.includes("go back")) {
-      history.goBack();
-    }
-  };
-
-  recognition.onend = () => {
-    recognition.start();
-  };
-
   if (settings.isSplash) {
     return (
       <div>
