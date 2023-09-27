@@ -232,18 +232,18 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Faculty of Sciences, University of Monastir",
-      subtitle: "Bachelor's in Computer Science",
-      logo_path: "logo_fsm.png",
-      alt_name: "FSM",
-      duration: "2018 - 2021",
+      title: "Groupe 3iL",
+      subtitle:
+        "Specialized Master's degree Manager of Digital Solutions and Data",
+      logo_path: "3il.png",
+      alt_name: "3iL",
+      duration: "2023 - PRESENT",
       descriptions: [
-        "✅ After attending university for 3 years, I acquired my Bachelor's in Computer Sciencs with high praise for my end of studies research paper and project.",
-        "⚡ I have studied core subjects like Data Structures & Optimization, DBMS, Networking, Security, graph theory, Fundamentals of Artificial Intelligence, Structured, Procedural and Object Oriented Programming, Linear Algebra, Calculus.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt in my Java, Web and Mobile development courses. ",
+        "⚡ I have studied core subjects like Object Oriented Programming, DBMS & Database Administration, Networking, CyberSecurity, Time Series Analysis, Probability & Statistics, Machine Learning, Deep Learning and Big Data Analytics among various other modules.",
+        "⚡ I have also completed various online courses for Python development, Python for Data Science, R for Data Science, Machine Learning Algorithms, Artificial Neural Networks, Convolutional Neural Networks, Deep Learning for Computer Vision.",
+        "⚡ I have implemented several projects based on what I've leart under my Software Engineering course. ",
       ],
-      website_link: "https://fsm.rnu.tn",
+      website_link: "https://www.3il-ingenieurs.fr",
     },
     {
       title: "Private Higher School of Engineering & Technology",
@@ -258,6 +258,20 @@ const degrees = {
         "⚡ I have implemented several projects based on what I've leart under my Software Engineering course. ",
       ],
       website_link: "https://esprit.tn",
+    },
+    {
+      title: "Faculty of Sciences, University of Monastir",
+      subtitle: "Bachelor's in Computer Science",
+      logo_path: "logo_fsm.png",
+      alt_name: "FSM",
+      duration: "2018 - 2021",
+      descriptions: [
+        "✅ After attending university for 3 years, I acquired my Bachelor's in Computer Sciencs with high praise for my end of studies research paper and project.",
+        "⚡ I have studied core subjects like Data Structures & Optimization, DBMS, Networking, Security, graph theory, Fundamentals of Artificial Intelligence, Structured, Procedural and Object Oriented Programming, Linear Algebra, Calculus.",
+        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've learnt in my Java, Web and Mobile development courses. ",
+      ],
+      website_link: "https://fsm.rnu.tn",
     },
   ],
 };
@@ -382,7 +396,7 @@ const experience = {
           title: "Deep Learning & Computer Vision Intern",
           company: "Faculty of Sciences of Monastir",
           company_url: "https://fsm.rnu.tn",
-          logo_path: "logo_fsm.png",
+          logo_path: "fsm.png",
           duration: "Feb 2021 - June 2021",
           location: "Monastir, Tunisia",
           description: `To conclude my studies, I had to complete an internship in which I helped an entity achieve some business goals. I saw an opportunity to help my university's administrative department and decided to apply my knowledge there.
@@ -409,7 +423,7 @@ const experience = {
           title: "Natural Language Processing Intern",
           company: "Esprit Tech",
           company_url: "https://esprit.tn/",
-          logo_path: "esprit.png",
+          logo_path: "esprit2.png",
           duration: "Jun 2022 - Aug 2022",
           location: "Ariana, Tunisia",
           description: `During my summer internship as a MERN Stack & NLP intern, my main task was to work on Esprit's ATS (Applicant Tracking System). Specifically, I was responsible for automating the recruitment process by utilizing NLP techniques to extract relevant information from resumes and categorize them based on their fields of expertise and experience. To achieve this, I worked with Python programming language, spaCy, NLTK, and various other NLP libraries, and deployed my work as an API using Flask.
@@ -492,7 +506,7 @@ const experience = {
         //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
         //   color: "#196acf",
         // },
-        {
+        /*{
           title: "GDG Student Volunteer",
           company: "Google Developer Groups",
           company_url: "https://gdg.community.dev/",
@@ -513,7 +527,7 @@ const experience = {
           description:
             "Google Developer Group Surat Student Volunteer and Member.",
           color: "#D83B01",
-        },
+        },*/
         {
           title: "GitHub Student Developer",
           company: "GitHub",
@@ -525,7 +539,7 @@ const experience = {
             "Contribute to Open Source Community and Open Source Project.",
           color: "#040f26",
         },
-        {
+        /*{
           title: "Google Local Guide",
           company: "Google Map",
           company_url: "https://maps.google.com/localguides/",
@@ -546,7 +560,7 @@ const experience = {
           description:
             "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
           color: "#5a900f",
-        },
+        },*/
       ],
     },
   ],
